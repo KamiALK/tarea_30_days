@@ -12,3 +12,6 @@ company = "Coding For All"
 
 # Print the variable company using print()
 print(company)
+
+# Print the length of the company string using len() method and print()
+print(len(company))
