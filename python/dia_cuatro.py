@@ -8,4 +8,7 @@ concatenacion = 'Thirty'+'Days'+ 'Of'+'Python'
 Coding_For_All = 'Coding' + 'For' + 'All'
 
 # Declare a variable named company and assign it to an initial value "Coding For All".
-company = "Coding For All".
+company = "Coding For All"
+
+# Print the variable company using print()
+print(company)
