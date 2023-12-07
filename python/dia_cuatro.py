@@ -28,6 +28,10 @@ print('la primer letra de cada palabra en minuscula', company.swapcase())
 # Cut(slice) out the first word of Coding For All string
 frase = 'Coding For All string'
 cut = frase[6:]
-print(cut)
+print('se recorre el string cut = frase[6:] ' , cut)
+
+# Check if Coding For All string contains a word Coding using the method index, find or other methods
+
+
 
 
