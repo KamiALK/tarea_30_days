@@ -1,6 +1,3 @@
-import numpy as np
- 
-
 # Concatenate the string 'Thirty', 'Days', 'Of', 'Python' to a single string, 'Thirty Days Of Python'
 concatenacion = 'Thirty'+'Days'+ 'Of'+'Python'
 
@@ -21,4 +18,16 @@ print('mayusculas:    ', company.upper()) # uppper()no tiene parametros
 
 # Change all the characters to lowercase letters using lower() method
 print(company.lower())
+
+# Use capitalize(), title(), swapcase() methods to format the value of the string Coding For All
+company = 'Coding For All'
+print ('solo la primera en mayuscula', company.capitalize())
+print('la primer letra de cada palabra en mayuscula', company.title())
+print('la primer letra de cada palabra en minuscula', company.swapcase())
+
+# Cut(slice) out the first word of Coding For All string
+frase = 'Coding For All string'
+cut = frase[6:]
+print(cut)
+
 
