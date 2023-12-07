@@ -14,4 +14,11 @@ company = "Coding For All"
 print(company)
 
 # Print the length of the company string using len() method and print()
-print(len(company))
+print('longitud de la variable',len(company))
+
+# Change all the characters to uppercase letters using upper() method
+print('mayusculas:    ', company.upper()) # uppper()no tiene parametros
+
+# Change all the characters to lowercase letters using lower() method
+print(company.lower())
+
