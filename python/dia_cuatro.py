@@ -31,7 +31,9 @@ cut = frase[6:]
 print('se recorre el string cut = frase[6:] ' , cut)
 
 # Check if Coding For All string contains a word Coding using the method index, find or other methods
+completo = 'Coding For All'
+trozo = 'oding'
+print(completo.index(trozo))
 
-
-
+# Replace the word coding in the string 'Coding For All' to Python
 
