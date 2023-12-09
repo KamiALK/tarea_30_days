@@ -35,5 +35,12 @@ completo = 'Coding For All'
 trozo = 'oding'
 print(completo.index(trozo))
 
-# Replace the word coding in the string 'Coding For All' to Python
+# Replace the word coding i0n the string 'Coding For All' to Python
 
+frase = 'Coding For All'
+
+    
+    
+parte_cambiada = input('vamos a reemplazar la frase: Coding For All /n escribe la palabra que deseas remplazar')
+parte_nueva = input('dime la parte nueva')
+print(frase.replace(parte_cambiada,parte_nueva))
